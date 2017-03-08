@@ -1,0 +1,23 @@
+{
+    "name": "jdr/jwt",
+    "description": "Helper for lcobucci/jwt",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Johan de Ruijter",
+            "email": "dev@johanderuijter.nl"
+        }
+    ],
+    "require": {
+        "php": "^7",
+        "lcobucci/jwt": "^3.0.4",
+        "jdr/jws-ecdsa": "^0.4",
+        "nesbot/carbon": "^1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "JDR\\JWT\\": "src"
+        }
+    }
+}
